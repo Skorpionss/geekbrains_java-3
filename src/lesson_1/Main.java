@@ -1,8 +1,12 @@
 package lesson_1;
 
+import java.awt.*;
+import java.util.ArrayList;
+import java.util.Collections;
+
 public class Main {
     public static void main(String[] args) {
-        doTask1();
+        doTask2();
     }
 
 
@@ -22,5 +26,10 @@ public class Main {
         for (int i = 0; i < intmass.length; i++) System.out.println(intmass[i]);
 
     }
+    static void doTask2(){
 
+        String[] mass = {"1","2","3"};
+        MassVarray massVarray = new MassVarray(mass);
+        massVarray.transformation();
+    }
 }
