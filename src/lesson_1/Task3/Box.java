@@ -10,6 +10,10 @@ public class Box<T extends Fruit> implements Comparable<Box<? extends Fruit>>{
         this.fruit = new ArrayList<>();
     }
 
+    public List<T> getFruit() {
+        return fruit;
+    }
+
     public float getWeight(){
         if (fruit.isEmpty()){
             return 0.0f;
@@ -25,5 +29,10 @@ public class Box<T extends Fruit> implements Comparable<Box<? extends Fruit>>{
     @Override
     public int compareTo(Box<? extends Fruit> th) {
         return Float.compare(getWeight(), th.getWeight());
+    }
+
+    public void bulk(Box<T> th){
+        fruit.addAll(th.getFruit());
+        th.getFruit().clear();
     }
 }
