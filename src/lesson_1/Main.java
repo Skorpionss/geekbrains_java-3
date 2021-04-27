@@ -1,12 +1,15 @@
 package lesson_1;
 
+import lesson_1.Task3.Apple;
+import lesson_1.Task3.Box;
+
 import java.awt.*;
 import java.util.ArrayList;
 import java.util.Collections;
 
 public class Main {
     public static void main(String[] args) {
-        doTask2();
+        doTask3();
     }
 
 
@@ -31,5 +34,10 @@ public class Main {
         String[] mass = {"1","2","3"};
         MassVarray massVarray = new MassVarray(mass);
         massVarray.transformation();
+    }
+
+    static void doTask3(){
+        new Box<Apple>().getWeight();
+
     }
 }
