@@ -35,4 +35,8 @@ public class Box<T extends Fruit> implements Comparable<Box<? extends Fruit>>{
         fruit.addAll(th.getFruit());
         th.getFruit().clear();
     }
+
+    public void add(T fr){
+        this.fruit.add(fr);
+    }
 }
