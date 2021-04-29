@@ -1,4 +1,4 @@
-package ru.gb.chat.client;
+package lesson_2.ru.gb.chat.client;
 
 import java.io.DataInputStream;
 import java.io.DataOutputStream;

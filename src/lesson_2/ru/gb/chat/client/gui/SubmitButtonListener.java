@@ -1,6 +1,6 @@
-package ru.gb.chat.client.gui;
+package lesson_2.ru.gb.chat.client.gui;
 
-import ru.gb.chat.client.gui.api.Sender;
+import lesson_2.ru.gb.chat.client.gui.api.Sender;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

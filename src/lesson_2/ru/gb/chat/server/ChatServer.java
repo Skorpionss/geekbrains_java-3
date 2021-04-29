@@ -1,4 +1,4 @@
-package ru.gb.chat.server;
+package lesson_2.ru.gb.chat.server;
 
 import java.io.IOException;
 import java.net.ServerSocket;

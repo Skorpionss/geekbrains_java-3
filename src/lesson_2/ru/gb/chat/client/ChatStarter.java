@@ -1,4 +1,4 @@
-package ru.gb.chat.client;
+package lesson_2.ru.gb.chat.client;
 
 public class ChatStarter {
     public static void run() {

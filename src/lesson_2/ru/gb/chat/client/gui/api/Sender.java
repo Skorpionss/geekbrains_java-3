@@ -1,4 +1,4 @@
-package ru.gb.chat.client.gui.api;
+package lesson_2.ru.gb.chat.client.gui.api;
 
 @FunctionalInterface
 public interface Sender {

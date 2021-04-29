@@ -1,7 +1,7 @@
-package ru.gb.chat.client.gui;
+package lesson_2.ru.gb.chat.client.gui;
 
-import ru.gb.chat.client.gui.api.Receiver;
-import ru.gb.chat.client.gui.api.Sender;
+import lesson_2.ru.gb.chat.client.gui.api.Receiver;
+import lesson_2.ru.gb.chat.client.gui.api.Sender;
 
 import javax.swing.*;
 import java.awt.*;
@@ -28,7 +28,7 @@ public class ChatFrame extends JFrame {
         JTextField inputField = new JTextField();
         bottom.add(inputField, BorderLayout.CENTER);
         JButton submitBtn = new JButton("Отправить");
-        submitBtn.addActionListener(new SubmitButtonListener(inputField, sender));
+        submitBtn.addActionListener(new lesson_2.ru.gb.chat.client.gui.SubmitButtonListener(inputField, sender));
 
         bottom.add(submitBtn, BorderLayout.EAST);
 

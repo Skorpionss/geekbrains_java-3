@@ -1,8 +1,8 @@
-package ru.gb.chat.client;
+package lesson_2.ru.gb.chat.client;
 
-import ru.gb.chat.client.gui.ChatFrame;
-import ru.gb.chat.client.gui.api.Receiver;
-import ru.gb.chat.client.gui.api.Sender;
+import lesson_2.ru.gb.chat.client.gui.ChatFrame;
+import lesson_2.ru.gb.chat.client.gui.api.Receiver;
+import lesson_2.ru.gb.chat.client.ChatCommunication;
 
 public class ChatClient {
     private final ChatFrame frame;
